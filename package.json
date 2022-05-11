@@ -1,0 +1,24 @@
+{
+  "name": "hung",
+  "version": "1.0.0",
+  "description": "Complete Node,js Guide",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-sever": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hungbeock/FUNIX_NJS101x_01-A_VN.git"
+  },
+  "author": "hungbeock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hungbeock/FUNIX_NJS101x_01-A_VN/issues"
+  },
+  "homepage": "https://github.com/hungbeock/FUNIX_NJS101x_01-A_VN#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
