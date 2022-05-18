@@ -1,7 +1,7 @@
 const http = require('http');
 const express = require('express')
 const bodyParser = require('body-parser')
-
+const errorController= require('./controllers/error')
 
 const app = express()
 
@@ -19,9 +19,7 @@ app.use(express.static(path.join(__dirname, 'public')))
 
 app.use( '/admin', adminRoutes)
 app.use(shopRouter)
-app.use((req, res, next) => {
-    res.status(404).render('404',{pageTitle:'Page not found'})
-})
+app.use(errorController.get404 )
 
 const server= http.createServer(app)
     
