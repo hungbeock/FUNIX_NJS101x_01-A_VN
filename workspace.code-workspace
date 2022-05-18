@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "NJS101x_01-A_VN Lập trình Web với NodeJS",
+			"path": "."
+		},
+		{
+			"name": "11-styling-our-pages",
+			"path": "..\\..\\Downloads\\11-styling-our-pages"
+		},
+		{
+			"name": "added-pug-shop-template",
+			"path": "..\\..\\Downloads\\added-pug-shop-template"
+		},
+		{
+			"name": "03-pug-finished",
+			"path": "..\\..\\Downloads\\03-pug-finished"
+		}
+	],
+	"settings": {}
+}
