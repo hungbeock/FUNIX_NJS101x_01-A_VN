@@ -4,10 +4,7 @@
 			"path": ".."
 		},
 		{
-			"path": "..\\..\\..\\Downloads\\00-starting-setup"
-		},
-		{
-			"path": "..\\..\\..\\Downloads\\04-adding-a-cart-model"
+			"path": "..\\..\\..\\Downloads\\09-fixing-a-delete-product-bug"
 		}
 	],
 	"settings": {}
