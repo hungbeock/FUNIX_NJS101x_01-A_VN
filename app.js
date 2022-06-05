@@ -33,8 +33,8 @@ app.use('/admin', adminRoutes);
 
 app.use(errorController.get404);
 
-mongoConnect((client)=>{
-    console.log(client)
+mongoConnect(()=>{
+    
     app.listen(3000)
 })
 
