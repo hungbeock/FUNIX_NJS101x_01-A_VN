@@ -20,7 +20,7 @@ class User {
     // const cartProduct =this.cart.items.findIndex(cp=>{
     //   return cd._id===product._id
     // })
-  
+  //dalam
     const updatedCart ={
       items:[{productId : new ObjectId(product._id),quantity :1}]
     }
