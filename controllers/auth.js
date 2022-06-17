@@ -41,6 +41,7 @@ exports.postSignup = (req, res, next) => {
         return res.redirect('/signup');
       }
       return bcrypt
+      //dalam 8_14
         .hash(password, 12)
         .then(hashedPassword => {
           const user = new User({
