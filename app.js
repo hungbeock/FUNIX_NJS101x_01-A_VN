@@ -11,6 +11,7 @@ const flash = require('connect-flash');
 const errorController = require('./controllers/error');
 const User = require('./models/user')
 
+//xemvideo
 const MONGODB_URI ='mongodb+srv://hung:123456789a@cluster0.qxpusgq.mongodb.net/test?retryWrites=true&w=majority'
 
 const app = express();
