@@ -12,7 +12,6 @@ exports.get404 = (req, res, next) => {
     { pageTitle: 'Error',
      path: '/500' ,
      isAuthenticated : req.isLoggedIn
-
     });
   };
   
