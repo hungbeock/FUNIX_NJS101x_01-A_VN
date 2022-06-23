@@ -41,7 +41,7 @@ exports.getProduct = (req, res, next) => {
         return next(error);}
       );
 };
-
+//kcovideo
 exports.getIndex = (req, res, next) => {
   const page = req.query.page
   Product.find()
