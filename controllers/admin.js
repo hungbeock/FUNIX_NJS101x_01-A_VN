@@ -135,20 +135,18 @@ exports.postEditProduct = (req, res, next) => {
 
   if (!errors.isEmpty()) {
     return res.status(422).render('admin/edit-product', {
-      pageTitle: 'Edit Product',
-      path: '/admin/edit-product',
-      editing: true,
+      pageTitle: 'Add Product',
+      path: '/admin/add-product',
+      editing: false,
       hasError: true,
       product: {
-        title: updatedTitle,
-        imageUrl: updatedImageUrl,
-        price: updatedPrice,
-        description: updatedDesc,
-        _id: prodId
+          title: title,
+          price: price,
+          description: description
       },
-      errorMessage: errors.array()[0].msg,
-      validationErrors: errors.array()
-    });
+      errorMessage: 'Attached file is not an image.',
+      validationErrors: []
+  });
   }
 
   Product.findById(prodId)
