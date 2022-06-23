@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\Downloads\\01-handling-file-uploads-with-multer"
+		},
+		{
+			"path": "..\\..\\Downloads\\03-serving-images-statically"
+		}
+	],
+	"settings": {}
+}
